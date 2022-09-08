@@ -39,12 +39,12 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'run tests',
+        name: 'tests',
         message: 'What command should be run to run tests?'
     },
     {
         type: 'input',
-        name: 'repo use',
+        name: 'use',
         message: 'What does the user need to know about using the repo?',
     },
     {
