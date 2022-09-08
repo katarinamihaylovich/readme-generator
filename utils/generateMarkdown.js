@@ -31,6 +31,12 @@ function generateMarkdown(data) {
   ## Description:
   ${data.description}
   ## Table of Contents:
+  - Installation
+  - Usage
+  - License (if applicable)
+  - Questions
+  - Contributing
+  - Tests
 
   ## Installation 
   In order to install dependencies, use the command "${data.dependencies}"
@@ -44,11 +50,11 @@ function generateMarkdown(data) {
   ${renderLicenseSection(data.license)}
 
   ## Questions
-  Q. What is the link to your GitHub repo?
-  A. github.com/${data.username}
+  Q. What is the link to your GitHub repo? <br />
+  A. github.com/${data.username} <br />
 
-  Q. What is the best way to be reached with additional questions?
-  A. Email at ${data.email}
+  Q. What is the best way to be reached with additional questions? <br />
+  A. Email at ${data.email} <br />
 
   ## Contributing
   What you need to know for contributing to the repo: ${data.contributing}
