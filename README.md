@@ -1,34 +1,24 @@
-# test
+# README Generator
+
   ## Description:
-  desc
-  ## Table of Contents:
-  - Installation
-  - Usage
-  - License (if applicable)
-  - Questions
-  - Contributing
-  - Tests
+  The purpose of this project was to create a command-line application that would create a README file based on user input. I wanted to create this project to demonstrate how much information can be both added and created from a user's command line. I was given some starter code in the generateMarkdown file. After that, I created a gitignore file, installed inquirer, and used several other packages to establish the necessary framework for optimal functionality. Afterward, I created a question array and many function across my two main Javascript files. In addition to learning more and more about these practices, I also learned a little bit about licenses. In short, the main goal of this project was to exhibit, practice, and present a project that would enable a user to create a file from the command line. In this case, it was a README file. 
 
-  ## Installation 
-  In order to install dependencies, use the command "command"
 
-  ## Usage
-  Information for using the repo: all
+  ## Technology Used:
+  1. Javascript
+  2. node
+  3. Inquirer
 
-  ## License (if applicable)
-  https://img.shields.io/badge/license-APACHE-2.0-blue.svg
-  license link
-  license APACHE-2.0
+  ## Link to Screencastify
+  https://drive.google.com/file/d/1BlPPeVXTl_HXv-xmNnSnnVBpFcxjZ09O/view
 
-  ## Questions
-  Q. What is the link to your GitHub repo? <br />
-  A. github.com/katarina-mihaylovich <br />
+  ## Screenshots:
 
-  Q. What is the best way to be reached with additional questions? <br />
-  A. Email at email <br />
+  Final outcome in Terminal
+  ![](/images/terminalview.png)
 
-  ## Contributing
-  What you need to know for contributing to the repo: all
+  Sample README
+  ![](/images/samplereadme.png)
 
-  ## Tests
-  The command to run tests is "command"
+  Preview of Sample README
+  ![](/images/previewreadme.png)
