@@ -33,12 +33,12 @@ function generateMarkdown(data) {
   ## Table of Contents:
 
   ## Installation 
-  In order to install dependencies, use the command ${data.dependencies} .
+  In order to install dependencies, use the command "${data.dependencies}"
 
   ## Usage
   Information for using the repo: ${data.use}
 
-
+  ## License (if applicable)
   ${renderLicenseBadge(data.license)}
   ${renderLicenseLink(data.license)}
   ${renderLicenseSection(data.license)}
@@ -54,7 +54,7 @@ function generateMarkdown(data) {
   What you need to know for contributing to the repo: ${data.contributing}
 
   ## Tests
-  The command to run tests is ${data.tests}.
+  The command to run tests is "${data.tests}"
 `;
 };
 
